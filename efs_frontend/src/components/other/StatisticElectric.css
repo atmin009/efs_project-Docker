@@ -1,0 +1,106 @@
+.statistic-electric {
+  text-align: center;
+  font-family: 'Anuphan', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.electric-amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #4D0067; /* สีม่วง */
+}
+
+.digit {
+  background-color: #4D0067;
+  color: white;
+  padding: 10px;
+  margin: 0 2px;
+  border-radius: 5px;
+}
+
+.unit {
+  margin-left: 10px;
+  font-size: 19px;
+  color: #4D0067;
+}
+
+/* Scrollable Container for cards */
+.scroll-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* ปรับเพื่อให้มีพื้นที่สำหรับปุ่มซ้าย-ขวา */
+  margin-top: 20px;
+  position: relative;
+}
+
+/* Scrollable area */
+.scrollable {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px;
+  scrollbar-width: none; /* Firefox */
+  flex: 1; /* ให้ scrollable ครอบคลุมพื้นที่ที่เหลือ */
+}
+
+.scrollable::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+/* Card styling */
+.card {
+  background-color: #4D0067;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 150px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเล็กน้อย */
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* เพิ่มเอฟเฟคเมื่อ hover */
+}
+
+/* Scroll buttons */
+.scroll-button {
+  background-color: #4D0067;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  position: relative;
+  /*เปลี่ยนจากabsoluteเพื่อให้ไม่ถูกทับ*/width: 40px;
+  /*ปรับขนาดให้เป็นวงกลม*/height: 40px;
+  border-radius: 100%;
+  /*ทำให้เป็นวงกลม*/display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  /*เพิ่มเงา*/z-index: 2;
+  margin: 0 10px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.scroll-button:hover {
+  background-color: #72009b;
+}
+
+.scroll-button.left {
+  order: -1; /* ดันปุ่มไปทางซ้ายสุด */
+}
+
+.scroll-button.right {
+  order: 1; /* ดันปุ่มไปทางขวาสุด */
+}

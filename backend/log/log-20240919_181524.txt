@@ -1,0 +1,46 @@
+2024-09-19 18:48:06,648 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:48:06,661 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:48:09,242 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:48:09,246 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:48:09,261 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:48:09,264 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:48:32,249 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:48:32,257 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:48:35,644 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:48:35,646 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:48:35,654 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:48:35,654 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:53:34,813 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:53:34,817 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:53:34,831 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:53:34,835 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:54:11,976 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:54:11,980 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:54:11,986 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:54:11,989 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:54:38,881 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:54:38,902 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:54:38,905 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:54:38,926 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:56:53,920 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:56:53,920 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:56:53,937 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:56:53,961 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:57:28,233 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:57:28,254 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:57:48,855 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:57:48,856 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 18:57:48,864 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 18:57:48,866 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 19:01:59,825 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 19:01:59,825 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 19:01:59,833 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 19:01:59,833 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 19:05:07,279 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 19:05:07,279 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 19:05:07,295 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 19:05:07,298 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 19:05:23,156 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 19:05:23,159 - Model names to be used: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12']
+2024-09-19 19:05:23,170 - No buildings found in Unit table for year: 2024, month: 9
+2024-09-19 19:05:23,171 - No buildings found in Unit table for year: 2024, month: 9

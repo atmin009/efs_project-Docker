@@ -1,0 +1,74 @@
+version: "3.8"
+
+services:
+  apache:
+    image: httpd:2.4
+    container_name: github-apache
+    ports:
+      - "8080:80"
+    volumes:
+      - ./apache.conf:/usr/local/apache2/conf/httpd.conf
+      - ./efs_frontend/build:/usr/local/apache2/htdocs
+      - ./logs:/usr/local/apache2/logs
+    networks:
+      - app-network
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: github-phpmyadmin
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+  db:
+    image: mysql:8.0
+    container_name: github-db
+    environment:
+      MYSQL_ROOT_PASSWORD: EFSsys123
+      MYSQL_DATABASE: mydatabase
+      MYSQL_USER: EFSadm
+      MYSQL_PASSWORD: EFSsys123
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u root --password=$$MYSQL_ROOT_PASSWORD || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./efs_frontend
+      dockerfile: Dockerfile
+    container_name: github-frontend
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: ./backend
+    container_name: github-backend
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=mysql+pymysql://EFSadm:EFSsys123@db:3306/mydatabase
+    networks:
+      - app-network
+
+networks:
+  app-network:
+
+volumes:
+  db_data:

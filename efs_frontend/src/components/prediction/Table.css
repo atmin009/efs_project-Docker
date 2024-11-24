@@ -1,0 +1,97 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.loader-spinner {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #390042;
+}
+
+.alert {
+    margin-top: 20px;
+}
+.custom-purple-button {
+    background-color: #390042 !important; /* สีพื้นหลังของปุ่ม */
+}
+
+.custom-purple-button:hover {
+    background-color: #620080 !important; /* สีพื้นหลังของปุ่มเมื่อ Hover */
+    border-color: #620080 !important; /* สีขอบของปุ่มเมื่อ Hover */
+}
+
+.info-box {
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  
+  .blue-box {
+    background-color: #67b7d1;
+  }
+  
+  .orange-box {
+    background-color: #d86f4b;
+  }
+  
+  .info-box-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  
+
+  .box-component{
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease, transform 0.3s ease !important;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    margin-top: 20px;
+    margin-top: 20px;
+}
+.highcharts-xaxis-labels text {
+    text-decoration: none !important;
+    color: #000000 !important;
+  }
+  
+  /* สร้าง CSS class */
