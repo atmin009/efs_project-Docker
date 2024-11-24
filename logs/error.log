@@ -1,0 +1,27 @@
+[Sun Nov 24 09:30:48.096829 2024] [mpm_event:notice] [pid 1:tid 1] AH00489: Apache/2.4.62 (Unix) configured -- resuming normal operations
+[Sun Nov 24 09:30:48.097815 2024] [unixd:alert] [pid 7:tid 7] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:30:48.097813 2024] [unixd:alert] [pid 9:tid 9] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:30:48.097822 2024] [unixd:alert] [pid 8:tid 8] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:30:48.099795 2024] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sun Nov 24 09:32:06.537467 2024] [mpm_event:notice] [pid 1:tid 1] AH00492: caught SIGWINCH, shutting down gracefully
+[Sun Nov 24 09:33:52.979873 2024] [mpm_event:notice] [pid 1:tid 1] AH00489: Apache/2.4.62 (Unix) configured -- resuming normal operations
+[Sun Nov 24 09:33:52.981748 2024] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sun Nov 24 09:33:52.979925 2024] [unixd:alert] [pid 8:tid 8] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:33:52.979992 2024] [unixd:alert] [pid 9:tid 9] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:33:52.980123 2024] [unixd:alert] [pid 10:tid 10] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:34:12.005588 2024] [unixd:alert] [pid 92:tid 92] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:35:48.095395 2024] [mpm_event:notice] [pid 1:tid 1] AH00492: caught SIGWINCH, shutting down gracefully
+[Sun Nov 24 09:36:03.651368 2024] [unixd:alert] [pid 8:tid 8] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:36:03.652986 2024] [unixd:alert] [pid 9:tid 9] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:36:03.653249 2024] [unixd:alert] [pid 13:tid 13] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:36:03.652934 2024] [mpm_event:notice] [pid 1:tid 1] AH00489: Apache/2.4.62 (Unix) configured -- resuming normal operations
+[Sun Nov 24 09:36:03.664293 2024] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sun Nov 24 09:37:13.740629 2024] [unixd:alert] [pid 92:tid 92] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:42:03.795382 2024] [mpm_event:notice] [pid 1:tid 1] AH00492: caught SIGWINCH, shutting down gracefully
+[Sun Nov 24 09:42:22.868556 2024] [unixd:alert] [pid 9:tid 9] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:42:22.868418 2024] [unixd:alert] [pid 8:tid 8] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:42:22.868450 2024] [mpm_event:notice] [pid 1:tid 1] AH00489: Apache/2.4.62 (Unix) configured -- resuming normal operations
+[Sun Nov 24 09:42:22.868677 2024] [unixd:alert] [pid 10:tid 10] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 09:42:22.869801 2024] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sun Nov 24 10:16:09.857854 2024] [unixd:alert] [pid 92:tid 92] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Sun Nov 24 10:21:32.897769 2024] [mpm_event:notice] [pid 1:tid 1] AH00492: caught SIGWINCH, shutting down gracefully
